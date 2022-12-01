@@ -1,0 +1,21 @@
+export declare function getOriginalBodyPadding(): number;
+export declare function getScrollbarWidth(): number;
+export declare function setScrollbarWidth(padding: any): void;
+export declare function isBodyOverflowing(): boolean;
+export declare function isObject(value: any): boolean;
+export declare function conditionallyUpdateScrollbar(): void;
+export declare function getColumnSizeClass(isXs: any, colWidth: any, colSize: any): string;
+export declare function browserEvent(target: any, ...args: any[]): () => any;
+export declare function getNewCarouselActiveIndex(direction: any, items: any, activeIndex: any): any;
+export default function classnames(...args: any[]): string;
+export declare function getTransitionDuration(element: any): number;
+export declare function uuid(): string;
+export type BreakpointsProps = string | number | {
+    xs?: number;
+    sm?: number;
+    md?: number;
+    lg?: number;
+    xl?: number;
+    xxl?: number;
+};
+export declare function getBreakpointsAttr(cols: BreakpointsProps, prefix?: string): (string | null)[];
